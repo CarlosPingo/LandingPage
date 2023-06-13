@@ -1,3 +1,46 @@
 html{
     scroll-behavior: smooth;
 }
+.ImagenesCompletasInicio {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .ImagenesCompletasInicio img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    animation: slideshow 15s infinite;
+  }
+  
+  .ImagenesCompletasInicio img:nth-child(1) {
+    animation-delay: 0s;
+  }
+  
+  .ImagenesCompletasInicio img:nth-child(2) {
+    animation-delay: 5s;
+  }
+  
+  .ImagenesCompletasInicio img:nth-child(3) {
+    animation-delay: 10s;
+  }
+  
+  @keyframes slideshow {
+    0%, 20% {
+      opacity: 0;
+    }
+    
+    25%, 45% {
+      opacity: 1;
+    }
+    
+    50%, 100% {
+      opacity: 0;
+    }
+  }
