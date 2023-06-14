@@ -6,7 +6,7 @@ html {
 h1 {
   font-family: 'Times New Roman', Times, serif;
   color: black;
-  font-size: 30px;
+  font-size: 40PX;
 }
 
 h2 {
@@ -47,6 +47,8 @@ li {
   object-fit: cover;
   opacity: 0;
   animation: slideshow 15s infinite;
+  z-index: 1;
+
 }
 
 .ImagenesCompletasInicio img:nth-child(1) {
@@ -102,4 +104,53 @@ section {
 
 section .ImagenesCompletasInicio {
   position: relative;
+}
+.Titulo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: absolute;
+  top: 40%;
+  left: 37%;
+  z-index: 2;
+}
+.SubT{
+  font-size: 35PX;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: absolute;
+  top: 63%;
+  left: 43%;
+  z-index: 2;
+}
+.LogoP{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: block;
+  margin: 0 auto;
+  z-index: 2;
+}
+.IconoYoutube {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 2;
+}
+.IconoMeta {
+  position: fixed;
+  bottom: 0;
+  right:150px;
+  z-index: 2;
+}
+.Iconotwitter{
+  position: fixed;
+  bottom: 0;
+  right:75px;
+  z-index: 2;
 }
