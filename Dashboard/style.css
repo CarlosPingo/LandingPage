@@ -1,0 +1,13 @@
+#Cont{
+    position: relative;
+    left: 100px;
+    top: 20px;
+    width: 250px;   /* Ancho del cuadrado */
+    height: 110px;  /* Alto del cuadrado */
+    border: 2px solid black;  /* Borde del cuadrado */
+    padding: 20px;  /* Espacio interno dentro del cuadrado */
+    background-color: rgb(144, 144, 151);
+  }
+  html{
+    background-color: rgb(186, 7, 7);
+  }
