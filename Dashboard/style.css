@@ -1,20 +1,32 @@
 #ContadorT{
+    display: inline-block;
     position: relative;
     left: 100px;
     top: 20px;
-    width: 250px;   /* Ancho del cuadrado */
+    width: 300px;   /* Ancho del cuadrado */
     height: 110px;  /* Alto del cuadrado */
     border: 2px solid black;  /* Borde del cuadrado */
     padding: 20px;  /* Espacio interno dentro del cuadrado */
     background-color: rgb(144, 144, 151);
   }
   #ContadorH{
+    display: inline-block;
     position: relative;
     left: 100px;
     top: 20px;
-    width: 250px;   /* Ancho del cuadrado */
+    width: 300px;   /* Ancho del cuadrado */
     height: 110px;  /* Alto del cuadrado */
     border: 2px solid black;  /* Borde del cuadrado */
     padding: 20px;  /* Espacio interno dentro del cuadrado */
     background-color: rgb(144, 144, 151);
+  }
+  #GraficoBarras{
+    position: relative;
+    left: 100px;
+    top: 20px;
+    width: 665px; /* Ajusta el ancho del contenedor según tus necesidades */
+    height: 300px; /* Ajusta la altura del contenedor según tus necesidades */
+    border: 5px solid #ccc; /* Agrega un borde al contenedor si deseas */
+    padding: 10px; /* Ajusta el relleno interno del contenedor según tus necesidades */
+    
   }
