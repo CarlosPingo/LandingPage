@@ -6,11 +6,17 @@
     <title>Dashboard</title>
     <link rel="stylesheet" href="./style.css">
     <script src="./contador.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
     <div id="Contador">
         <h2>Contador de Visitantes</h2>
         <div id="total-visitas">Cargando total de visitas...</div>
+        <p>Total de visitas del día: <span id="total-visitas-dia"></span></p>
+
     </div>
+    <br><br><br><br><br>
+    <canvas id="grafico-barras"></canvas> <!-- Elemento donde se mostrará el gráfico de barras -->
+
 </body>
 </html>
